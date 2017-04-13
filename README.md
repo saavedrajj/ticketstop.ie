@@ -1,2 +1,2 @@
 # ticketstop.ie
-Ticket Stop Layout
+ticketstop.ie layout
