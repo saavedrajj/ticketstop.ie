@@ -1,8 +1,8 @@
 /* Nav */
 .navbar { 
-	background-color:#1E232A; 
-	border-radius:0px;
-	border-color: #1E232A;
+	border-radius:0px;	
+	background-color:#000; 
+	border-color: #000;
 /*
 	background-color: transparent;
 	border-color: transparent;	*/
@@ -20,21 +20,20 @@
 .navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:focus, 
 .navbar-default .navbar-nav>.active>a:hover {
-    color: #555;
-    background-color: transparent;
+	color: #555;
+	background-color: transparent;
 }
 
+.affix {
+	top: 0;
+	width: 100%;
+	 transition: background-color 0.9s ease;
+	background-color: #1E232A;	border-color: #1E232A;
+}
 
-
-  /* Note: Try to remove the following lines to see the effect of CSS positioning */
-  .affix {
-      top: 0;
-      width: 100%;
-  }
-
-  .affix + .container-fluid {
-      padding-top: 70px;
-  }
+.affix + .container-fluid {
+	padding-top: 70px;      
+}
 
 
 /*
@@ -47,12 +46,19 @@
 footer { background-color: #000000; }
 
 .oswald{font-family: 'Oswald', sans-serif;}*/
-
 .intro { background-color:red; height:100vh; }
+.hero { background-color:blue; height:100vh; }
+
+
 
 .container-fluid {
 	/*padding: 0px;*/
 }
+
+.container-fluid {
+	/*padding: 0px;*/
+}
+
 
 .news-ticker{
 	display:none;
@@ -63,6 +69,10 @@ footer { background-color: #000000; }
 	font-size:25px;
 	color:#000;
 	text-align:center;
+}
+.news-ticker .row {
+	margin: 20px 0px 0px 0px;
+	/*background:green;*/
 }
 
 .vcenter {

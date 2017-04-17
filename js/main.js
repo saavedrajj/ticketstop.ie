@@ -7,3 +7,7 @@ $(document).ready(function(){
     });
 });
 */
+/*
+$(document).ready(function(){
+    $('.nav').affix({offset: {top: 80} }); 
+});*/
