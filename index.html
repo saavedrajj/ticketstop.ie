@@ -5,24 +5,28 @@
   <title></title>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <meta name="author" content="Juan Saavedra - @saavedrajj">  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/home-search.css">    
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/custom.css">  
 </head>
 <body>
 
   <div class="container-fluid">
     <div class="row">
-      <div class="news-ticker">
-        Official Ed Sheeran Ticket Resale
+      <div id="news-ticker" class="news-ticker-container">
+        <div class="name">Official Ed Sheeran Ticket Resale <a href="event.html" class="btn-buy">Buy now</a></div>
       </div> 
     </div>
 
-    
     <div class="row">
-      <div class="hero">
+      <div class="hero-home" style="background-image: url('images/page/hero_1920px.jpg');">
         <!-- Fixed navbar -->
-        <nav class="navbar navbar-default" data-spy="affix" data-offset-top="80">
+
+        <nav class="navbar navbar-default" data-spy="affix" data-offset-top="80">     
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
@@ -30,100 +34,297 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><div class="logo"><img src="images/home/logo.png" alt=""></div></a>
+            <a class="navbar-brand" href="index.html"><div class="logo"><img src="images/home/logo.png" alt=""></div></a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">Page 1</a></li>
-              <li><a href="#">Page 2</a></li>
-              <li><a href="#">Page 3</a></li>      
-              <li><a href="#">Log in</a></li>  
-              <li class="search-not-responsive"><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>  
-              <li class="search-responsive"><a href="#">Search</a></li>                
+              <li class="active"><a href="index.html">Home</a></li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="category.html">Celebrity Appearance</a></li>
+                  <li><a href="category.html">Comedy</a></li>
+                  <li><a href="category.html">Darts</a></li>
+                  <li><a href="category.html">Family Entertainment</a></li>
+                  <li><a href="category.html">Music</a></li>                           
+                </ul>
+              </li>
+
+
+
+              <li><a href="page.html">Page 1</a></li>
+              <li><a href="page.html">Page 2</a></li>
+              <li><a href="page.html">Page 3</a></li>      
+              <li><a href="login.html">Log in</a></li>
+              <li><a href="signup.html">Sign up</a></li>                
+              <li class="hidden-xs "><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>  
+              <li class="hidden-sm hidden-md hidden-lg"><a href="search-results.html">Search</a></li>                
             </ul>
           </div><!--/.nav-collapse -->
         </nav>
-      </div><!--hero -->
-    </div>
 
-    <div class="row">
-      <div class='col-xs-12 col-sm-12 col-md-4 col-lg-4' '>
-        <div class="category-title">Category 1</div>
-        <div class="events">
-          <div class="event">
-            <img alt="" class="img-responsive" src="images/page/event1.jpg">
-            <div class="caption">
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
-              <p>Lorem ipsum dolor sit amet, consectetur</p>                            
-            </div>
-          </div>
-          <div class="event">
-            <img alt="" class="img-responsive" src="images/page/event1.jpg">
-            <div class="caption">
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
-              <p>Lorem ipsum dolor sit amet, consectetur</p>                            
-            </div>
-          </div>          
-        </div>
-      </div>
-      <div class='col-xs-12 col-sm-12 col-md-4 col-lg-4'>
-        <div class="category-title">Category 2</div>
-        <div class="events">
-          <div class="event">
-            <img alt="" class="img-responsive" src="images/page/event1.jpg">
-            <div class="caption">
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
-              <p>Lorem ipsum dolor sit amet, consectetur</p>                            
-            </div>
-          </div>
-          <div class="event">
-            <img alt="" class="img-responsive" src="images/page/event1.jpg">
-            <div class="caption">
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
-              <p>Lorem ipsum dolor sit amet, consectetur</p>                            
-            </div>
-          </div>          
-        </div>                         
-      </div>
-      <div class='col-xs-12 col-sm-12 col-md-4 col-lg-4'>
-        <div class="category-title">Category 3</div>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro odio delectus fugit recusandae dicta ipsam labore quod, corrupti officiis, beatae tempora, aspernatur voluptatum, reiciendis totam. Reiciendis, libero vel numquam hic.
-        </div>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas modi nesciunt placeat beatae explicabo quibusdam temporibus magnam eum quasi tenetur, voluptatibus consequatur voluptates vel cupiditate illo, ad optio quisquam, laudantium.
-        </div>                           
-      </div>
-    </div>
+        <!-- Begin: Search -->    
+        <div class="home-search clearfix">
+          <form id="nl-form" class="nl-form text-center" action="search-results.html">
+            I'm looking for 
+            <input type="text" value="" placeholder="an event" data-subline="For example: <em>U2</em> or <em>The Cranberries</em>"/>
+            in 
+            <select>
+              <option value="1" selected>any Category</option>
+              <option value="2">Celebrity Appearance</option>
+              <option value="3">Comedy</option>
+              <option value="4">Darts</option>
+              <option value="2">Family Entertainment</option>
+              <option value="4">Music</option>
+            </select>
+            in 
+            <select style="height:200px;">
+              <option value="1" selected>any County</option>
+              <option value="2">Antrim</option>
+              <option value="3">Armagh</option>
+              <option value="4">Carlow</option>
+              <option value="5">Cavan</option>
+              <option value="6">Clare</option>
+              <option value="7">Cork</option>
+              <option value="8">Derry</option>
+              <option value="9">Donegal</option>
+              <option value="10">Down</option>
+            </select>
+            <center><button class="nl-submit" type="submit">Search</button></center>
 
-    <div class="row"> 
-      <div class="footer"> 
-        <ul>
-          <li><a href="#" target="_self">Page 1</a></li>
-          <li><a href="#" target="_self">Page 2</a></li>
-          <li><a href="#" target="_self">Page 3</a></li>
-          <li><a href="#" target="_self">Page 4</a></li>
-          <li><a href="#" target="_self">Page 5</a></li>
-          <li><a href="#" target="_self">Page 6</a></li>
-          <li><a href="#" target="_self">Page 7</a></li>
-          <li><a href="#" target="_self">Page 8</a></li> 
-          <li><a href="#" target="_self">Page 9</a></li>
-          <li><a href="#" target="_self">Page 10</a></li>                
-        </ul>
+            <div class="nl-overlay"></div>
+          </form>
+
+        </div>
+        <script src="js/nlform.js"></script>
+        <script>
+        var nlform = new NLForm(document.getElementById( 'nl-form' ) );
+      </script>
+      <!-- End: Search -->
+
+
+
+
+    </div><!--hero -->
+  </div>
+
+
+  <div class="row">
+    <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+      <div class="list-events-title">list of all events</div>
+    </div>  
+    <!-- Begin: First Category -->
+    <div class='col-xs-12 col-sm-12 col-md-4 col-lg-4'>
+      <div class="category-title">Category 1</div>
+      <div class="events">
+        <!-- Begin: Events -->
+        <div class="event-home">
+          <img alt="" class="img-responsive" src="images/page/event1.jpg">
+          <div class="details">
+            <ul>
+              <li class="artist"><a href="event.html">Jim Steinman's - Bat out of hell Bat out of hell</a></li>
+              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</a></li>
+              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 26 May</a></li>
+            </ul>
+          </div>
+        </div> 
+        <div class="event-home">
+          <img alt="" class="img-responsive" src="images/page/event2.jpg">
+          <div class="details">
+            <ul>
+              <li class="artist"><a href="event.html">Ariana Grande - World Tour</a></li>
+              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Crooke Park</a></li>
+              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 27 May</a></li>
+            </ul>
+          </div>
+        </div>     
+        <div class="event-home">
+          <img alt="" class="img-responsive" src="images/page/event3.jpg">
+          <div class="details">
+            <ul>
+              <li class="artist"><a href="event.html">Bruno Mars - World Tour</a></li>
+              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> RDS</a></li>
+              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 28 May</a></li>
+            </ul>
+          </div>
+        </div> 
+        <div class="event-home">
+          <img alt="" class="img-responsive" src="images/page/event4.jpg">
+          <div class="details">
+            <ul>
+              <li class="artist"><a href="event.html">Stone Roses - World Tour</a></li>
+              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Olympia Theatre</a></li>
+              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 29-30 May</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="event-home">
+          <img alt="" class="img-responsive" src="images/page/event5.jpg">
+          <div class="details">
+            <ul>
+              <li class="artist"><a href="event.html">Ed Sheeran - World Tour</a></li>
+              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Crooke park</a></li>
+              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 31 May - 1 Jun</a></li>
+            </ul>
+          </div>
+        </div>            
+        <!-- End: Events -->
       </div>
-    </div>
+    </div>  
+    <!-- End: First Category -->
+
+    <!-- Begin: Second Category -->
+    <div class='col-xs-12 col-sm-12 col-md-4 col-lg-4'>
+      <div class="category-title">Category 2</div>
+      <div class="events">
+        <!-- Begin: Events -->
+        <div class="event-home">
+          <img alt="" class="img-responsive" src="images/page/event1.jpg">
+          <div class="details">
+            <ul>
+              <li class="artist"><a href="event.html">Jim Steinman's - Bat out of hell Bat out of hell</a></li>
+              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</a></li>
+              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 26 May</a></li>
+            </ul>
+          </div>
+        </div> 
+        <div class="event-home">
+          <img alt="" class="img-responsive" src="images/page/event2.jpg">
+          <div class="details">
+            <ul>
+              <li class="artist"><a href="event.html">Ariana Grande - World Tour</a></li>
+              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Crooke Park</a></li>
+              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 27 May</a></li>
+            </ul>
+          </div>
+        </div>     
+        <div class="event-home">
+          <img alt="" class="img-responsive" src="images/page/event3.jpg">
+          <div class="details">
+            <ul>
+              <li class="artist"><a href="event.html">Bruno Mars - World Tour</a></li>
+              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> RDS</a></li>
+              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 28 May</a></li>
+            </ul>
+          </div>
+        </div> 
+        <div class="event-home">
+          <img alt="" class="img-responsive" src="images/page/event4.jpg">
+          <div class="details">
+            <ul>
+              <li class="artist"><a href="event.html">Stone Roses - World Tour</a></li>
+              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Olympia Theatre</a></li>
+              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 29-30 May</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="event-home">
+          <img alt="" class="img-responsive" src="images/page/event5.jpg">
+          <div class="details">
+            <ul>
+              <li class="artist"><a href="event.html">Ed Sheeran - World Tour</a></li>
+              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Crooke park</a></li>
+              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 31 May - 1 Jun</a></li>
+            </ul>
+          </div>
+        </div>            
+        <!-- End: Events -->
+      </div>
+    </div>  
+    <!-- End: Second Category -->
+
+    <!-- Begin: Third Category -->
+    <div class='col-xs-12 col-sm-12 col-md-4 col-lg-4'>
+      <div class="category-title">Category 3</div>
+      <div class="events">
+        <!-- Begin: Events -->
+        <div class="event-home">
+          <img alt="" class="img-responsive" src="images/page/event1.jpg">
+          <div class="details">
+            <ul>
+              <li class="artist"><a href="event.html">Jim Steinman's - Bat out of hell Bat out of hell</a></li>
+              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</a></li>
+              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 26 May</a></li>
+            </ul>
+          </div>
+        </div> 
+        <div class="event-home">
+          <img alt="" class="img-responsive" src="images/page/event2.jpg">
+          <div class="details">
+            <ul>
+              <li class="artist"><a href="event.html">Ariana Grande - World Tour</a></li>
+              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Crooke Park</a></li>
+              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 27 May</a></li>
+            </ul>
+          </div>
+        </div>     
+        <div class="event-home">
+          <img alt="" class="img-responsive" src="images/page/event3.jpg">
+          <div class="details">
+            <ul>
+              <li class="artist"><a href="event.html">Bruno Mars - World Tour</a></li>
+              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> RDS</a></li>
+              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 28 May</a></li>
+            </ul>
+          </div>
+        </div> 
+        <div class="event-home">
+          <img alt="" class="img-responsive" src="images/page/event4.jpg">
+          <div class="details">
+            <ul>
+              <li class="artist"><a href="event.html">Stone Roses - World Tour</a></li>
+              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Olympia Theatre</a></li>
+              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 29-30 May</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="event-home">
+          <img alt="" class="img-responsive" src="images/page/event5.jpg">
+          <div class="details">
+            <ul>
+              <li class="artist"><a href="event.html">Ed Sheeran - World Tour</a></li>
+              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Crooke park</a></li>
+              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 31 May - 1 Jun</a></li>
+            </ul>
+          </div>
+        </div>            
+        <!-- End: Events -->
+      </div>
+    </div>      
+    <!-- End: Third Category -->
 
   </div>
-</div> <!-- /container --> 
-<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <div class="row"> 
+    <div class="footer"> 
+      <div class="menu">
+        <ul>
+          <li><a href="page.html" target="_self">Page 1</a></li>
+          <li><a href="page.html" target="_self">Page 2</a></li>
+          <li><a href="page.html" target="_self">Page 3</a></li>
+          <li><a href="page.html" target="_self">Page 4</a></li>
+          <li><a href="page.html" target="_self">Page 5</a></li>
+          <li><a href="page.html" target="_self">Page 6</a></li>
+          <li><a href="page.html" target="_self">Page 7</a></li>
+          <li><a href="page.html" target="_self">Page 8</a></li> 
+          <li><a href="page.html" target="_self">Page 9</a></li>
+          <li><a href="page.html" target="_self">Page 10</a></li>                
+        </ul>
+      </div>
+      <div class="copyright"><p>Copyright Ticketstop.ie &copy; 2017. All Rights Reserved.<p></div></div>
+      </div>
+    </div>
+
+
+
+  </div> <!-- /container --> 
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="js/bootstrap-toolkit.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
 
