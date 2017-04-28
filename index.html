@@ -9,23 +9,20 @@
   <link rel="icon" type="image/png" href="favicon.png">
   <meta name="author" content="Juan Saavedra - @saavedrajj">  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/home-search.css">    
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/custom.css">  
 </head>
-<body>
 
+<body>
   <div class="container-fluid">
     <div class="row">
       <div id="news-ticker" class="news-ticker-container">
         <div class="name">Official Ed Sheeran Ticket Resale <a href="event.html" class="btn-buy">Buy now</a></div>
       </div> 
     </div>
-
     <div class="row">
       <div class="hero-home" style="background-image: url('images/page/hero_1920px.jpg');">
         <!-- Fixed navbar -->
-
         <nav class="navbar navbar-default" data-spy="affix" data-offset-top="80">     
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -41,7 +38,6 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="index.html">Home</a></li>
-
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -52,22 +48,19 @@
                   <li><a href="category.html">Music</a></li>                           
                 </ul>
               </li>
-
-
-
               <li><a href="page.html">Page 1</a></li>
               <li><a href="page.html">Page 2</a></li>
               <li><a href="page.html">Page 3</a></li>      
               <li><a href="login.html">Log in</a></li>
               <li><a href="signup.html">Sign up</a></li>                
-              <li class="hidden-xs "><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>  
-              <li class="hidden-sm hidden-md hidden-lg"><a href="search-results.html">Search</a></li>                
+              <li class="hidden-xs "><a href="search.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>  
+              <li class="hidden-sm hidden-md hidden-lg"><a href="search.html">Search</a></li>           
             </ul>
           </div><!--/.nav-collapse -->
         </nav>
 
         <!-- Begin: Search -->    
-        <div class="home-search clearfix">
+        <div class="hero-content clearfix">
           <form id="nl-form" class="nl-form text-center" action="search-results.html">
             I'm looking for 
             <input type="text" value="" placeholder="an event" data-subline="For example: <em>U2</em> or <em>The Cranberries</em>"/>
@@ -97,7 +90,6 @@
 
             <div class="nl-overlay"></div>
           </form>
-
         </div>
         <script src="js/nlform.js"></script>
         <script>
@@ -116,61 +108,67 @@
     <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
       <div class="list-events-title">list of all events</div>
     </div>  
+
     <!-- Begin: First Category -->
     <div class='col-xs-12 col-sm-12 col-md-4 col-lg-4'>
       <div class="category-title">Category 1</div>
       <div class="events">
         <!-- Begin: Events -->
         <div class="event-home">
-          <img alt="" class="img-responsive" src="images/page/event1.jpg">
-          <div class="details">
-            <ul>
-              <li class="artist"><a href="event.html">Jim Steinman's - Bat out of hell Bat out of hell</a></li>
-              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</a></li>
-              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 26 May</a></li>
-            </ul>
-          </div>
-        </div> 
-        <div class="event-home">
-          <img alt="" class="img-responsive" src="images/page/event2.jpg">
-          <div class="details">
-            <ul>
-              <li class="artist"><a href="event.html">Ariana Grande - World Tour</a></li>
-              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Crooke Park</a></li>
-              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 27 May</a></li>
-            </ul>
-          </div>
-        </div>     
-        <div class="event-home">
-          <img alt="" class="img-responsive" src="images/page/event3.jpg">
-          <div class="details">
-            <ul>
-              <li class="artist"><a href="event.html">Bruno Mars - World Tour</a></li>
-              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> RDS</a></li>
-              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 28 May</a></li>
-            </ul>
-          </div>
-        </div> 
-        <div class="event-home">
-          <img alt="" class="img-responsive" src="images/page/event4.jpg">
-          <div class="details">
-            <ul>
-              <li class="artist"><a href="event.html">Stone Roses - World Tour</a></li>
-              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Olympia Theatre</a></li>
-              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 29-30 May</a></li>
-            </ul>
-          </div>
+          <a href="event.html"><img alt="" class="img-responsive" src="images/page/event1.jpg">
+            <div class="details">
+              <ul>
+                <li class="artist">Jim Steinman's - Bat out of hell Bat out of hell</li>
+                <li class="venue"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</li>
+                <li class="date"><span class="glyphicon glyphicon-calendar"></span> 26 May</li>
+              </ul>
+            </div>
+          </a>
         </div>
         <div class="event-home">
-          <img alt="" class="img-responsive" src="images/page/event5.jpg">
-          <div class="details">
-            <ul>
-              <li class="artist"><a href="event.html">Ed Sheeran - World Tour</a></li>
-              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Crooke park</a></li>
-              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 31 May - 1 Jun</a></li>
-            </ul>
-          </div>
-        </div>            
+          <a href="event.html"><img alt="" class="img-responsive" src="images/page/event2.jpg">
+            <div class="details">
+              <ul>
+                <li class="artist">Ariana Grande - World Tour</li>
+                <li class="venue"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</li>
+                <li class="date"><span class="glyphicon glyphicon-calendar"></span> 26 May</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <div class="event-home">
+          <a href="event.html"><img alt="" class="img-responsive" src="images/page/event3.jpg">
+            <div class="details">
+              <ul>
+                <li class="artist">Bruno Mars - World Tour</li>
+                <li class="venue"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</li>
+                <li class="date"><span class="glyphicon glyphicon-calendar"></span> 26 May</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <div class="event-home">
+          <a href="event.html"><img alt="" class="img-responsive" src="images/page/event4.jpg">
+            <div class="details">
+              <ul>
+                <li class="artist">Stones Roses - World Tour</li>
+                <li class="venue"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</li>
+                <li class="date"><span class="glyphicon glyphicon-calendar"></span> 26 May</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <div class="event-home">
+          <a href="event.html"><img alt="" class="img-responsive" src="images/page/event5.jpg">
+            <div class="details">
+              <ul>
+                <li class="artist">Ed Sheeran - World Tour</li>
+                <li class="venue"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</li>
+                <li class="date"><span class="glyphicon glyphicon-calendar"></span> 26 May</li>
+              </ul>
+            </div>
+          </a>
+        </div>         
         <!-- End: Events -->
       </div>
     </div>  
@@ -182,55 +180,60 @@
       <div class="events">
         <!-- Begin: Events -->
         <div class="event-home">
-          <img alt="" class="img-responsive" src="images/page/event1.jpg">
-          <div class="details">
-            <ul>
-              <li class="artist"><a href="event.html">Jim Steinman's - Bat out of hell Bat out of hell</a></li>
-              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</a></li>
-              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 26 May</a></li>
-            </ul>
-          </div>
-        </div> 
-        <div class="event-home">
-          <img alt="" class="img-responsive" src="images/page/event2.jpg">
-          <div class="details">
-            <ul>
-              <li class="artist"><a href="event.html">Ariana Grande - World Tour</a></li>
-              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Crooke Park</a></li>
-              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 27 May</a></li>
-            </ul>
-          </div>
-        </div>     
-        <div class="event-home">
-          <img alt="" class="img-responsive" src="images/page/event3.jpg">
-          <div class="details">
-            <ul>
-              <li class="artist"><a href="event.html">Bruno Mars - World Tour</a></li>
-              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> RDS</a></li>
-              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 28 May</a></li>
-            </ul>
-          </div>
-        </div> 
-        <div class="event-home">
-          <img alt="" class="img-responsive" src="images/page/event4.jpg">
-          <div class="details">
-            <ul>
-              <li class="artist"><a href="event.html">Stone Roses - World Tour</a></li>
-              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Olympia Theatre</a></li>
-              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 29-30 May</a></li>
-            </ul>
-          </div>
+          <a href="event.html"><img alt="" class="img-responsive" src="images/page/event1.jpg">
+            <div class="details">
+              <ul>
+                <li class="artist">Jim Steinman's - Bat out of hell Bat out of hell</li>
+                <li class="venue"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</li>
+                <li class="date"><span class="glyphicon glyphicon-calendar"></span> 26 May</li>
+              </ul>
+            </div>
+          </a>
         </div>
         <div class="event-home">
-          <img alt="" class="img-responsive" src="images/page/event5.jpg">
-          <div class="details">
-            <ul>
-              <li class="artist"><a href="event.html">Ed Sheeran - World Tour</a></li>
-              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Crooke park</a></li>
-              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 31 May - 1 Jun</a></li>
-            </ul>
-          </div>
-        </div>            
+          <a href="event.html"><img alt="" class="img-responsive" src="images/page/event2.jpg">
+            <div class="details">
+              <ul>
+                <li class="artist">Ariana Grande - World Tour</li>
+                <li class="venue"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</li>
+                <li class="date"><span class="glyphicon glyphicon-calendar"></span> 26 May</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <div class="event-home">
+          <a href="event.html"><img alt="" class="img-responsive" src="images/page/event3.jpg">
+            <div class="details">
+              <ul>
+                <li class="artist">Bruno Mars - World Tour</li>
+                <li class="venue"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</li>
+                <li class="date"><span class="glyphicon glyphicon-calendar"></span> 26 May</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <div class="event-home">
+          <a href="event.html"><img alt="" class="img-responsive" src="images/page/event4.jpg">
+            <div class="details">
+              <ul>
+                <li class="artist">Stones Roses - World Tour</li>
+                <li class="venue"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</li>
+                <li class="date"><span class="glyphicon glyphicon-calendar"></span> 26 May</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <div class="event-home">
+          <a href="event.html"><img alt="" class="img-responsive" src="images/page/event5.jpg">
+            <div class="details">
+              <ul>
+                <li class="artist">Ed Sheeran - World Tour</li>
+                <li class="venue"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</li>
+                <li class="date"><span class="glyphicon glyphicon-calendar"></span> 26 May</li>
+              </ul>
+            </div>
+          </a>
+        </div>         
         <!-- End: Events -->
       </div>
     </div>  
@@ -242,55 +245,60 @@
       <div class="events">
         <!-- Begin: Events -->
         <div class="event-home">
-          <img alt="" class="img-responsive" src="images/page/event1.jpg">
-          <div class="details">
-            <ul>
-              <li class="artist"><a href="event.html">Jim Steinman's - Bat out of hell Bat out of hell</a></li>
-              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</a></li>
-              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 26 May</a></li>
-            </ul>
-          </div>
-        </div> 
-        <div class="event-home">
-          <img alt="" class="img-responsive" src="images/page/event2.jpg">
-          <div class="details">
-            <ul>
-              <li class="artist"><a href="event.html">Ariana Grande - World Tour</a></li>
-              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Crooke Park</a></li>
-              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 27 May</a></li>
-            </ul>
-          </div>
-        </div>     
-        <div class="event-home">
-          <img alt="" class="img-responsive" src="images/page/event3.jpg">
-          <div class="details">
-            <ul>
-              <li class="artist"><a href="event.html">Bruno Mars - World Tour</a></li>
-              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> RDS</a></li>
-              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 28 May</a></li>
-            </ul>
-          </div>
-        </div> 
-        <div class="event-home">
-          <img alt="" class="img-responsive" src="images/page/event4.jpg">
-          <div class="details">
-            <ul>
-              <li class="artist"><a href="event.html">Stone Roses - World Tour</a></li>
-              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Olympia Theatre</a></li>
-              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 29-30 May</a></li>
-            </ul>
-          </div>
+          <a href="event.html"><img alt="" class="img-responsive" src="images/page/event1.jpg">
+            <div class="details">
+              <ul>
+                <li class="artist">Jim Steinman's - Bat out of hell Bat out of hell</li>
+                <li class="venue"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</li>
+                <li class="date"><span class="glyphicon glyphicon-calendar"></span> 26 May</li>
+              </ul>
+            </div>
+          </a>
         </div>
         <div class="event-home">
-          <img alt="" class="img-responsive" src="images/page/event5.jpg">
-          <div class="details">
-            <ul>
-              <li class="artist"><a href="event.html">Ed Sheeran - World Tour</a></li>
-              <li class="venue"><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Crooke park</a></li>
-              <li class="date"><a href="#"><span class="glyphicon glyphicon-calendar"></span> 31 May - 1 Jun</a></li>
-            </ul>
-          </div>
-        </div>            
+          <a href="event.html"><img alt="" class="img-responsive" src="images/page/event2.jpg">
+            <div class="details">
+              <ul>
+                <li class="artist">Ariana Grande - World Tour</li>
+                <li class="venue"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</li>
+                <li class="date"><span class="glyphicon glyphicon-calendar"></span> 26 May</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <div class="event-home">
+          <a href="event.html"><img alt="" class="img-responsive" src="images/page/event3.jpg">
+            <div class="details">
+              <ul>
+                <li class="artist">Bruno Mars - World Tour</li>
+                <li class="venue"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</li>
+                <li class="date"><span class="glyphicon glyphicon-calendar"></span> 26 May</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <div class="event-home">
+          <a href="event.html"><img alt="" class="img-responsive" src="images/page/event4.jpg">
+            <div class="details">
+              <ul>
+                <li class="artist">Stones Roses - World Tour</li>
+                <li class="venue"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</li>
+                <li class="date"><span class="glyphicon glyphicon-calendar"></span> 26 May</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <div class="event-home">
+          <a href="event.html"><img alt="" class="img-responsive" src="images/page/event5.jpg">
+            <div class="details">
+              <ul>
+                <li class="artist">Ed Sheeran - World Tour</li>
+                <li class="venue"><span class="glyphicon glyphicon-map-marker"></span> 3 Arena</li>
+                <li class="date"><span class="glyphicon glyphicon-calendar"></span> 26 May</li>
+              </ul>
+            </div>
+          </a>
+        </div>         
         <!-- End: Events -->
       </div>
     </div>      

@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
   <link rel="icon" type="image/png" href="favicon.png">
-    <meta name="author" content="Juan Saavedra - @saavedrajj">
+  <meta name="author" content="Juan Saavedra - @saavedrajj">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://use.fontawesome.com/90c3bfa33f.js"></script>
   <link rel="stylesheet" href="css/styles.css">
@@ -58,15 +58,15 @@
               <li><a href="page.html">Page 3</a></li>      
               <li><a href="login.html">Log in</a></li>
               <li><a href="signup.html">Sign up</a></li>                
-              <li class="hidden-xs "><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>  
-              <li class="hidden-sm hidden-md hidden-lg"><a href="search-results.html">Search</a></li>             
+              <li class="hidden-xs"><a href="search.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>  
+              <li class="hidden-sm hidden-md hidden-lg"><a href="search.html">Search</a></li>                
             </ul>
           </div><!--/.nav-collapse -->
+
         </nav>
-        <div class="event-title">
+        <div class="hero-content hidden-xs hidden-sm">
          <h1>Ed Sheeran</h1>
          <h2>World Tour</h2>
-
        </div>
 
      </div><!--hero -->
@@ -75,48 +75,53 @@
 
    <div class="row">
     <div class="container">
+      <div class="hidden-md hidden-lg">
+       <h1>Ed Sheeran</h1>
+       <h2>World Tour</h2>
+     </div>
 
-      <h3>Ed Sheeran</h3>
+     <h3>Ed Sheeran</h3>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, perferendis molestiae, suscipit incidunt minus mollitia eius soluta beatae corrupti ducimus ea! Laboriosam autem laudantium, ab explicabo corrupti modi illo, magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, atque. Itaque harum, modi aspernatur saepe in voluptates illum voluptate illo inventore consequatur magnam cum omnis doloremque iusto eum dolores laudantium.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dolores eos cum rem suscipit beatae aperiam veritatis placeat ipsum adipisci eligendi earum voluptatibus soluta iusto totam ducimus ullam, sequi! Explicabo? Lorem ipsum dolor sit amet, 
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, perferendis molestiae, suscipit incidunt minus mollitia eius soluta beatae corrupti ducimus ea! Laboriosam autem laudantium, ab explicabo corrupti modi illo, magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, atque. Itaque harum, modi aspernatur saepe in voluptates illum voluptate illo inventore consequatur magnam cum omnis doloremque iusto eum dolores laudantium.</p>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dolores eos cum rem suscipit beatae aperiam veritatis placeat ipsum adipisci eligendi earum voluptatibus soluta iusto totam ducimus ullam, sequi! Explicabo? Lorem ipsum dolor sit amet, 
 
 
-        <h3><span class="glyphicon glyphicon-calendar"></span> MAY 2107</a></h3>
+      <h3><span class="glyphicon glyphicon-calendar"></span> MAY 2107</a></h3>
 
-        <div class="event">
-          <div class="header">TUE 26 19:00 - <span class="glyphicon glyphicon-map-marker"></span> Crooke park - Dublin, Ireland.</div>
-          <div class="block">
-            <div class="row">
-              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column"><p><i class="fa fa-ticket" aria-hidden="true"></i> Block 11D</p></div>
-              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">€56.22</div>
-              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">
-                <select class="form-control" id="sel1">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                </select>
-              </div>
-            </div>   
-          </div>
-          <div class="block">
-            <div class="row">
-              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column"><p><i class="fa fa-ticket" aria-hidden="true"></i> Block 11D</p></div>
-              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">€56.22</div>
-              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">
-                <select class="form-control" id="sel1">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                </select>
-              </div>
-            </div>   
-          </div>
-          <div class="block"><div class="row"> 
+      <div class="event">
+        <div class="header">TUE 26 19:00 - <span class="glyphicon glyphicon-map-marker"></span> Crooke park - Dublin, Ireland.</div>
+        <div class="block">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column"><p><i class="fa fa-ticket" aria-hidden="true"></i> Block 11D</p><span>text 2</span></div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">€56.22</div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">
+              <select class="form-control" id="sel1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </div>
+          </div>   
+        </div>
+        <div class="block">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column"><p><i class="fa fa-ticket" aria-hidden="true"></i> Block 11D</p></div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">€56.22</div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">
+              <select class="form-control" id="sel1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </div>
+          </div>   
+        </div>
+        <div class="block">
+          <div class="row"> 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 column">
-             <a href="event.html" class="btn-buy pull-right">Buy</a>
+              <a href="checkout1.html" class="btn-buy pull-right">Buy</a>
            </div>
          </div>
        </div>
@@ -126,84 +131,84 @@
 
      <div class="event">
       <div class="header">WED 27 19:00 - <span class="glyphicon glyphicon-map-marker"></span> Crooke park - Dublin, Ireland.</div>
-              <div class="block">
-            <div class="row">
-              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column"><p><i class="fa fa-ticket" aria-hidden="true"></i> Block 11D</p></div>
-              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">€56.22</div>
-              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">
-                <select class="form-control" id="sel1">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                </select>
-              </div>
-            </div>   
+      <div class="block">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column"><p><i class="fa fa-ticket" aria-hidden="true"></i> Block 11D</p></div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">€56.22</div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">
+            <select class="form-control" id="sel1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
           </div>
-          <div class="block"><div class="row"> 
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 column">
-             <a href="event.html" class="btn-buy pull-right">Buy</a>
-           </div>
-         </div>
+        </div>   
+      </div>
+      <div class="block"><div class="row"> 
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 column">
+         <a href="checkout1.html" class="btn-buy pull-right">Buy</a>
        </div>
+     </div>
+   </div>
+ </div>
+
+
+ <h3><span class="glyphicon glyphicon-calendar"></span> JUN 2107</a></h3>
+
+ <div class="event">
+  <div class="header">WED 27 19:00 - <span class="glyphicon glyphicon-map-marker"></span> Crooke park - Dublin, Ireland.</div>
+  <div class="block">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column"><p><i class="fa fa-ticket" aria-hidden="true"></i> Block 11D</p></div>
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">€56.22</div>
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">
+        <select class="form-control" id="sel1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
       </div>
+    </div>   
+  </div>
+  <div class="block"><div class="row"> 
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 column">
+     <a href="checkout1.html" class="btn-buy pull-right">Buy</a>
+   </div>
+ </div>
+</div> 
+</div>
 
 
-      <h3><span class="glyphicon glyphicon-calendar"></span> JUN 2107</a></h3>
+</div>
+</div>
 
-      <div class="event">
-        <div class="header">WED 27 19:00 - <span class="glyphicon glyphicon-map-marker"></span> Crooke park - Dublin, Ireland.</div>
-          <div class="block">
-            <div class="row">
-              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column"><p><i class="fa fa-ticket" aria-hidden="true"></i> Block 11D</p></div>
-              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">€56.22</div>
-              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 column">
-                <select class="form-control" id="sel1">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                </select>
-              </div>
-            </div>   
-          </div>
-          <div class="block"><div class="row"> 
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 column">
-             <a href="event.html" class="btn-buy pull-right">Buy</a>
-           </div>
-         </div>
-       </div> 
-        </div>
-
-        
-      </div>
+<div class="row"> 
+  <div class="footer"> 
+    <div class="menu">
+      <ul>
+        <li><a href="page.html" target="_self">Page 1</a></li>
+        <li><a href="page.html" target="_self">Page 2</a></li>
+        <li><a href="page.html" target="_self">Page 3</a></li>
+        <li><a href="page.html" target="_self">Page 4</a></li>
+        <li><a href="page.html" target="_self">Page 5</a></li>
+        <li><a href="page.html" target="_self">Page 6</a></li>
+        <li><a href="page.html" target="_self">Page 7</a></li>
+        <li><a href="page.html" target="_self">Page 8</a></li> 
+        <li><a href="page.html" target="_self">Page 9</a></li>
+        <li><a href="page.html" target="_self">Page 10</a></li>                
+      </ul>
     </div>
-
-    <div class="row"> 
-      <div class="footer"> 
-        <div class="menu">
-          <ul>
-            <li><a href="page.html" target="_self">Page 1</a></li>
-            <li><a href="page.html" target="_self">Page 2</a></li>
-            <li><a href="page.html" target="_self">Page 3</a></li>
-            <li><a href="page.html" target="_self">Page 4</a></li>
-            <li><a href="page.html" target="_self">Page 5</a></li>
-            <li><a href="page.html" target="_self">Page 6</a></li>
-            <li><a href="page.html" target="_self">Page 7</a></li>
-            <li><a href="page.html" target="_self">Page 8</a></li> 
-            <li><a href="page.html" target="_self">Page 9</a></li>
-            <li><a href="page.html" target="_self">Page 10</a></li>                
-          </ul>
-        </div>
-        <div class="copyright"><p>Copyright Ticketstop.ie &copy; 2017. All Rights Reserved.<p></div></div>
-        </div>
-      </div>
+    <div class="copyright"><p>Copyright Ticketstop.ie &copy; 2017. All Rights Reserved.<p></div></div>
+    </div>
+  </div>
 
 
-    </div> <!-- /container --> 
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-    <script src="js/bootstrap-toolkit.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
-  </html>
+</div> <!-- /container --> 
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script src="js/bootstrap-toolkit.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

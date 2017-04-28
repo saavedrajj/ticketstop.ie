@@ -4,17 +4,10 @@
 /* Main Content */
 .home-search{
 	margin: 0 auto;
-	/*padding: 2em;*/
 	padding:100px 15px 0 15px;
-/*		background: red;
-		max-width: 320px;*/
 }
 
-/*
-.nl-field-toggle, .nl-form input, .nl-form select {
-	color:#F9EC10;
-}
-*/
+
 /* To Navigation Style */
 .codrops-top {
 	background: #fff;
@@ -89,12 +82,16 @@
 
 /* general style for the form */
 .nl-form {
-	width: 100%;
-	/*margin: 0.3em auto 0 auto;*/
+	/*width: 90%;*/
 	margin: 0 auto;
 	font-size: 4em;
 	line-height: 1.5;
+	color:#fff;
 }
+
+.nl-form a { color:#848484; }
+
+.nl-form a:hover { color:#fff; }
 
 .nl-form ul {
 	list-style: none;
