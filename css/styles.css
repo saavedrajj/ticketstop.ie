@@ -231,6 +231,10 @@ a, a:focus, a:hover, a:visited,a:active  {
 	/*margin:100px;*/
 }
 
+.hero-content h1, .hero-content h2{
+	text-shadow: 1.5px 1.5px 1.5px #000000;
+}
+
 .hero-search-content{
 	margin: 0 auto;
 	padding:60px 15px 0 15px;
@@ -533,6 +537,27 @@ img.shareico {
 .footer .copyright { background:#000; height:10px;}
 .footer .copyright p {font-family: 'Open Sans', sans-serif; color:#555;font-size:8.5px;padding:5px 0 0 0;margin: 0px;}
 
+
+/* Social Media */
+ul.social-media {
+margin-left: -40px;
+}
+
+ul.social-media li{
+  display: inline-block;
+
+}
+
+.tw-share-button {}
+
+.fb-share-button{
+    position:relative;
+    top:-5px;
+
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
 
 /* Stripe */
 /**
